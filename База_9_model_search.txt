@@ -1,0 +1,342 @@
+DecisionTree
+{'criterion': ['gini', 'entropy'],
+ 'max_depth': array([ 2,  4,  6,  8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34,
+       36, 38, 40, 42, 44, 46, 48]),
+ 'max_features': array([ 3,  5,  7,  9, 11, 13, 15, 17, 19, 21, 23, 25]),
+ 'min_samples_split': array([ 2,  7, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57, 62, 67, 72, 77, 82,
+       87, 92, 97]),
+ 'splitter': ['best', 'random']}
+
+
+GridSearchCV
+{'Best Parameters: ': {'criterion': 'entropy',
+                       'max_depth': 6,
+                       'max_features': 7,
+                       'min_samples_split': 12,
+                       'splitter': 'random'}}
+
+
+{'Test_Accuracy': {0: 0.8666666666666667},
+ 'Test_F1': {0: 0.3333333333333333},
+ 'Test_PRC-AUC': {0: 0.32388997184318824},
+ 'Test_Precision': {0: 0.6666666666666666},
+ 'Test_ROC-AUC': {0: 0.701525054466231},
+ 'Test_Recall': {0: 0.2222222222222222},
+ 'Test_Specificity': {0: 0.9803921568627451},
+ 'Train_Accuracy': {0: 0.8832116788321168},
+ 'Train_F1': {0: 0.6},
+ 'Train_PRC-AUC': {0: 0.718121533638775},
+ 'Train_Precision': {0: 0.8571428571428571},
+ 'Train_ROC-AUC': {0: 0.9248094248094249},
+ 'Train_Recall': {0: 0.46153846153846156},
+ 'Train_Specificity': {0: 0.9819819819819819}}
+
+
+RandomizedSearchCV
+{'Best Parameters: ': {'criterion': 'gini',
+                       'max_depth': 16,
+                       'max_features': 15,
+                       'min_samples_split': 7,
+                       'splitter': 'random'}}
+
+
+{'Test_Accuracy': {0: 0.7666666666666667},
+ 'Test_F1': {0: 0.46153846153846156},
+ 'Test_PRC-AUC': {0: 0.29787581699346405},
+ 'Test_Precision': {0: 0.35294117647058826},
+ 'Test_ROC-AUC': {0: 0.724400871459695},
+ 'Test_Recall': {0: 0.6666666666666666},
+ 'Test_Specificity': {0: 0.7843137254901961},
+ 'Train_Accuracy': {0: 0.9124087591240876},
+ 'Train_F1': {0: 0.7777777777777779},
+ 'Train_PRC-AUC': {0: 0.845434893485509},
+ 'Train_Precision': {0: 0.75},
+ 'Train_ROC-AUC': {0: 0.9686417186417186},
+ 'Train_Recall': {0: 0.8076923076923077},
+ 'Train_Specificity': {0: 0.9369369369369369}}
+
+
+RandomForest
+{'criterion': ['gini', 'entropy'],
+ 'max_depth': array([ 2,  5,  8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47]),
+ 'max_features': array([ 3,  5,  7,  9, 11, 13, 15, 17, 19, 21, 23, 25]),
+ 'min_samples_split': array([ 2,  7, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57, 62, 67, 72, 77, 82,
+       87, 92, 97]),
+ 'n_estimators': array([10, 20, 30, 40, 50, 60, 70, 80, 90])}
+
+
+{'Best Parameters: ': {'criterion': 'entropy',
+                       'max_depth': 20,
+                       'max_features': 3,
+                       'min_samples_split': 7,
+                       'n_estimators': 10}}
+
+
+{'Test_Accuracy': {0: 0.8166666666666667},
+ 'Test_F1': {0: 0.15384615384615383},
+ 'Test_PRC-AUC': {0: 0.42717132717132716},
+ 'Test_Precision': {0: 0.25},
+ 'Test_ROC-AUC': {0: 0.7843137254901961},
+ 'Test_Recall': {0: 0.1111111111111111},
+ 'Test_Specificity': {0: 0.9411764705882353},
+ 'Train_Accuracy': {0: 0.927007299270073},
+ 'Train_F1': {0: 0.7727272727272727},
+ 'Train_PRC-AUC': {0: 0.9576011747242991},
+ 'Train_Precision': {0: 0.9444444444444444},
+ 'Train_ROC-AUC': {0: 0.9892584892584892},
+ 'Train_Recall': {0: 0.6538461538461539},
+ 'Train_Specificity': {0: 0.990990990990991}}
+
+
+RandomizedSearchCV
+{'Best Parameters: ': {'criterion': 'gini',
+                       'max_depth': 14,
+                       'max_features': 21,
+                       'min_samples_split': 17,
+                       'n_estimators': 90}}
+
+
+{'Test_Accuracy': {0: 0.8833333333333333},
+ 'Test_F1': {0: 0.5333333333333333},
+ 'Test_PRC-AUC': {0: 0.5292017242017242},
+ 'Test_Precision': {0: 0.6666666666666666},
+ 'Test_ROC-AUC': {0: 0.8583877995642701},
+ 'Test_Recall': {0: 0.4444444444444444},
+ 'Test_Specificity': {0: 0.9607843137254902},
+ 'Train_Accuracy': {0: 0.8759124087591241},
+ 'Train_F1': {0: 0.5853658536585367},
+ 'Train_PRC-AUC': {0: 0.8631870275105803},
+ 'Train_Precision': {0: 0.8},
+ 'Train_ROC-AUC': {0: 0.9708939708939708},
+ 'Train_Recall': {0: 0.46153846153846156},
+ 'Train_Specificity': {0: 0.972972972972973}}
+
+
+KNN
+{'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'],
+ 'leaf_size': array([10, 20, 30, 40, 50, 60]),
+ 'n_neighbors': array([ 5,  7,  9, 11, 13, 15, 17, 19]),
+ 'p': array([1, 3, 5, 7]),
+ 'weights': ['uniform', 'distance']}
+
+
+{'Best Parameters: ': {'algorithm': 'auto',
+                       'leaf_size': 10,
+                       'n_neighbors': 9,
+                       'p': 1,
+                       'weights': 'distance'}}
+
+
+{'Test_Accuracy': {0: 0.85},
+ 'Test_F1': {0: 0.30769230769230765},
+ 'Test_PRC-AUC': {0: 0.39473979561698863},
+ 'Test_Precision': {0: 0.5},
+ 'Test_ROC-AUC': {0: 0.6557734204793029},
+ 'Test_Recall': {0: 0.2222222222222222},
+ 'Test_Specificity': {0: 0.9607843137254902},
+ 'Train_Accuracy': {0: 0.9927007299270073},
+ 'Train_F1': {0: 0.9803921568627451},
+ 'Train_PRC-AUC': {0: 1.0},
+ 'Train_Precision': {0: 1.0},
+ 'Train_ROC-AUC': {0: 1.0},
+ 'Train_Recall': {0: 0.9615384615384616},
+ 'Train_Specificity': {0: 1.0}}
+
+
+RandomizedSearchCV
+{'Best Parameters: ': {'algorithm': 'auto',
+                       'leaf_size': 40,
+                       'n_neighbors': 11,
+                       'p': 3,
+                       'weights': 'distance'}}
+
+
+{'Test_Accuracy': {0: 0.8666666666666667},
+ 'Test_F1': {0: 0.19999999999999998},
+ 'Test_PRC-AUC': {0: 0.3398148148148148},
+ 'Test_Precision': {0: 1.0},
+ 'Test_ROC-AUC': {0: 0.4509803921568627},
+ 'Test_Recall': {0: 0.1111111111111111},
+ 'Test_Specificity': {0: 1.0},
+ 'Train_Accuracy': {0: 0.9927007299270073},
+ 'Train_F1': {0: 0.9803921568627451},
+ 'Train_PRC-AUC': {0: 1.0},
+ 'Train_Precision': {0: 1.0},
+ 'Train_ROC-AUC': {0: 1.0},
+ 'Train_Recall': {0: 0.9615384615384616},
+ 'Train_Specificity': {0: 1.0}}
+
+
+GradBoosting
+{'learning_rate': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. , 1.1, 1.2, 1.3,
+       1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2. , 2.1, 2.2, 2.3, 2.4]),
+ 'loss': ['log_loss', 'exponential'],
+ 'max_features': array([ 3,  5,  7,  9, 11, 13, 15, 17, 19, 21, 23, 25]),
+ 'min_samples_split': array([ 2,  7, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57, 62, 67, 72, 77, 82,
+       87, 92, 97]),
+ 'n_estimators': array([10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90,
+       95])}
+
+
+GridSearchCV
+{'Best Parameters: ': {'learning_rate': 2.0,
+                       'loss': 'exponential',
+                       'max_features': 5,
+                       'min_samples_split': 22,
+                       'n_estimators': 15}}
+
+
+{'Test_Accuracy': {0: 0.85},
+ 'Test_F1': {0: 0.5263157894736842},
+ 'Test_PRC-AUC': {0: 0.6226519159852493},
+ 'Test_Precision': {0: 0.5},
+ 'Test_ROC-AUC': {0: 0.9106753812636166},
+ 'Test_Recall': {0: 0.5555555555555556},
+ 'Test_Specificity': {0: 0.9019607843137255},
+ 'Train_Accuracy': {0: 0.9854014598540146},
+ 'Train_F1': {0: 0.9615384615384616},
+ 'Train_PRC-AUC': {0: 0.9229203820821003},
+ 'Train_Precision': {0: 0.9615384615384616},
+ 'Train_ROC-AUC': {0: 0.9792099792099792},
+ 'Train_Recall': {0: 0.9615384615384616},
+ 'Train_Specificity': {0: 0.990990990990991}}
+
+
+RandomizedSearchCV
+{'Best Parameters: ': {'learning_rate': 0.4,
+                       'loss': 'exponential',
+                       'max_features': 5,
+                       'min_samples_split': 37,
+                       'n_estimators': 15}}
+
+
+{'Test_Accuracy': {0: 0.8666666666666667},
+ 'Test_F1': {0: 0.5},
+ 'Test_PRC-AUC': {0: 0.5695446528779862},
+ 'Test_Precision': {0: 0.5714285714285714},
+ 'Test_ROC-AUC': {0: 0.8583877995642702},
+ 'Test_Recall': {0: 0.4444444444444444},
+ 'Test_Specificity': {0: 0.9411764705882353},
+ 'Train_Accuracy': {0: 0.9562043795620438},
+ 'Train_F1': {0: 0.875},
+ 'Train_PRC-AUC': {0: 0.957254947089742},
+ 'Train_Precision': {0: 0.9545454545454546},
+ 'Train_ROC-AUC': {0: 0.9894317394317395},
+ 'Train_Recall': {0: 0.8076923076923077},
+ 'Train_Specificity': {0: 0.990990990990991}}
+
+
+LogisticRegression
+{'C': array([0.01, 0.11, 0.21, 0.31, 0.41, 0.51, 0.61, 0.71, 0.81, 0.91, 1.01,
+       1.11, 1.21, 1.31, 1.41, 1.51, 1.61, 1.71, 1.81, 1.91, 2.01, 2.11,
+       2.21, 2.31, 2.41]),
+ 'class_weight': ['balanced', None],
+ 'max_iter': array([  5,  55, 105, 155, 205, 255, 305, 355, 405, 455]),
+ 'penalty': ['l1', 'l2', 'elasticnet', 'none'],
+ 'solver': ['newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga']}
+
+
+GridSearchCV
+{'Best Parameters: ': {'C': 2.01,
+                       'class_weight': None,
+                       'max_iter': 5,
+                       'penalty': 'l1',
+                       'solver': 'liblinear'}}
+
+
+{'Test_Accuracy': {0: 0.8166666666666667},
+ 'Test_F1': {0: 0.35294117647058826},
+ 'Test_PRC-AUC': {0: 0.37530062530062536},
+ 'Test_Precision': {0: 0.375},
+ 'Test_ROC-AUC': {0: 0.8017429193899782},
+ 'Test_Recall': {0: 0.3333333333333333},
+ 'Test_Specificity': {0: 0.9019607843137255},
+ 'Train_Accuracy': {0: 0.8686131386861314},
+ 'Train_F1': {0: 0.5714285714285714},
+ 'Train_PRC-AUC': {0: 0.6860937677881229},
+ 'Train_Precision': {0: 0.75},
+ 'Train_ROC-AUC': {0: 0.9106029106029107},
+ 'Train_Recall': {0: 0.46153846153846156},
+ 'Train_Specificity': {0: 0.963963963963964}}
+
+
+RandomizedSearchCV
+{'Best Parameters: ': {'C': 1.4100000000000001,
+                       'class_weight': None,
+                       'max_iter': 355,
+                       'penalty': 'none',
+                       'solver': 'saga'}}
+
+
+{'Test_Accuracy': {0: 0.85},
+ 'Test_F1': {0: 0.1818181818181818},
+ 'Test_PRC-AUC': {0: 0.2658077402128969},
+ 'Test_Precision': {0: 0.5},
+ 'Test_ROC-AUC': {0: 0.5577342047930283},
+ 'Test_Recall': {0: 0.1111111111111111},
+ 'Test_Specificity': {0: 0.9803921568627451},
+ 'Train_Accuracy': {0: 0.8321167883211679},
+ 'Train_F1': {0: 0.30303030303030304},
+ 'Train_PRC-AUC': {0: 0.512640150424483},
+ 'Train_Precision': {0: 0.7142857142857143},
+ 'Train_ROC-AUC': {0: 0.7678447678447679},
+ 'Train_Recall': {0: 0.19230769230769232},
+ 'Train_Specificity': {0: 0.9819819819819819}}
+
+
+SVM
+{'C': array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. , 1.1, 1.2, 1.3,
+       1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2. , 2.1, 2.2, 2.3, 2.4, 2.5, 2.6,
+       2.7, 2.8, 2.9, 3. , 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9,
+       4. , 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9]),
+ 'class_weight': ['balanced', None],
+ 'degree': array([1, 2, 3, 4, 5]),
+ 'gamma': ['auto', 'scale'],
+ 'kernel': ['linear', 'poly', 'rbf', 'sigmoid']}
+
+
+{'Best Parameters: ': {'C': 0.1,
+                       'class_weight': 'balanced',
+                       'degree': 1,
+                       'gamma': 'auto',
+                       'kernel': 'sigmoid'}}
+
+
+{'Test_Accuracy': {0: 0.85},
+ 'Test_F1': {0: 0.0},
+ 'Test_PRC-AUC': {0: 0.15},
+ 'Test_Precision': {0: 0.0},
+ 'Test_ROC-AUC': {0: 0.5},
+ 'Test_Recall': {0: 0.0},
+ 'Test_Specificity': {0: 1.0},
+ 'Train_Accuracy': {0: 0.8102189781021898},
+ 'Train_F1': {0: 0.0},
+ 'Train_PRC-AUC': {0: 0.1897810218978102},
+ 'Train_Precision': {0: 0.0},
+ 'Train_ROC-AUC': {0: 0.5},
+ 'Train_Recall': {0: 0.0},
+ 'Train_Specificity': {0: 1.0}}
+
+
+RandomizedSearchCV
+{'Best Parameters: ': {'C': 3.9000000000000004,
+                       'class_weight': 'balanced',
+                       'degree': 4,
+                       'gamma': 'auto',
+                       'kernel': 'linear'}}
+
+
+{'Test_Accuracy': {0: 0.7},
+ 'Test_F1': {0: 0.43750000000000006},
+ 'Test_PRC-AUC': {0: 0.3890021244187911},
+ 'Test_Precision': {0: 0.30434782608695654},
+ 'Test_ROC-AUC': {0: 0.8126361655773421},
+ 'Test_Recall': {0: 0.7777777777777778},
+ 'Test_Specificity': {0: 0.6862745098039216},
+ 'Train_Accuracy': {0: 0.8102189781021898},
+ 'Train_F1': {0: 0.6578947368421052},
+ 'Train_PRC-AUC': {0: 0.4741405926009869},
+ 'Train_Precision': {0: 0.5},
+ 'Train_ROC-AUC': {0: 0.8766458766458767},
+ 'Train_Recall': {0: 0.9615384615384616},
+ 'Train_Specificity': {0: 0.7747747747747747}}
