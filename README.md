@@ -14,6 +14,7 @@
 1. ROC-AUC
 2. Precision
 3. Recall
+4. F1-score
 4. Accuracy
 5. Sensitivity
 6. PRC-AUC
